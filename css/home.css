@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Crimson Text";
+}
+
+.banner {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  left: 0px;
+  top: 0px;
+  background-size: cover;
+  background-position: center;
+  background: #efe4c6;
+}
+.logo {
+  width: 164px;
+  cursor: pointer;
+  margin-right: 20px;
+  align-self: flex-start;
+}
+.logobg {
+  width: 190px;
+  cursor: pointer;
+  margin-top: 0px;
+  margin-right: 15px;
+  align-self: flex-start;
+  background: #fbf8f0;
+}
+.navigation-bar {
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  background: #c3b090;
+  height: 20vh;
+}
+
+.navigation-list {
+  list-style-type: none;
+  margin-top: 0;
+  margin-left: 30%;
+  padding: 0;
+  display: flex;
+}
+
+.navigation-item {
+  margin-right: 35%;
+}
+
+.navigation-item:last-child {
+  margin-right: 0;
+}
+
+.navigation-item a {
+  text-decoration: none;
+  color: #160c01;
+  padding: 5px;
+}
+
+.navigation-bar ul li a::after {
+  content: "";
+  height: 3px;
+  width: 0;
+  background: #70420c;
+  margin: auto;
+  display: block;
+}
+.navigation-bar ul li a:hover::after {
+  content: "";
+  height: 3px;
+  width: 100%;
+  background: #70420c;
+  margin: auto;
+  display: block;
+  transition: width 0.3s linear;
+}
+.navigation-bar ul li a:hover {
+  color: #70420c;
+}
+.sidenav {
+  position: absolute;
+  width: 190px;
+  height: 80vh;
+  top: 20vh;
+  left: 0px;
+  background: #fbf8f0;
+}
+.sidenav ul li a {
+  text-decoration: none;
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  margin-left: 55px;
+  color: #70420c;
+}
+.ppl {
+  width: 465px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  margin-left: 60%;
+  border-radius: 10px;
+}
+.conent {
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  height: 20vh;
+}
+.content p {
+  margin-left: 30%;
+  margin-right: 30%;
+
+  font-size: 20px;
+  color: #160c01;
+}
