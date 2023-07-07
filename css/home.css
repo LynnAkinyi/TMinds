@@ -94,24 +94,26 @@
   margin-left: 55px;
   color: #70420c;
 }
-.ppl {
-  width: 465px;
-  border-radius: 10px;
-  margin-left: 50%;
-}
+
 .conent {
-  display: flex;
-  align-items: center;
+  width: 80%;
+  padding: 1%;
 }
 .text {
-  flex: 1;
   font-size: 20px;
   color: #160c01;
-  margin-left: 40%;
+  margin-top: 5%;
 }
-/*.content p {
-  margin-left: 20%;
-  font-size: 20px;
-  color: #160c01;
+.text h1 {
+  font-size: 30px;
+  color: #70420c;
+  margib-left: 40%;
+  margin-top: 5%;
 }
-*/
+.content img {
+  height: 200px;
+  width: 250px;
+  border-radius: 10px;
+  margin-left: 30%;
+  float: left;
+}
