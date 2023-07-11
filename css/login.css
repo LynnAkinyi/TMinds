@@ -16,7 +16,8 @@ body {
 .content {
   width: 80%;
   height: 58vh;
-  margin: 10%;
+  margin-top: 10%;
+  margin-left: 10%;
   background: #fbf8f0;
 }
 .content img {
